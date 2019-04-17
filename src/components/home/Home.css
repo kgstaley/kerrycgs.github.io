@@ -1,0 +1,20 @@
+.HomeContainer {
+  display: grid;
+}
+
+.headerContainer {
+  display: grid;
+  background-color: #1e1e1e;
+}
+
+.bigAvatar {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.homeHeader {
+  text-align: center;
+  color: aliceblue;
+}

@@ -1,5 +1,7 @@
 .root {
   flex-grow: 1;
+  padding-bottom: 3rem;
+  background-color: #1e1e1e;
 }
 
 .grow {

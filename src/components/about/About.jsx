@@ -1,6 +1,6 @@
 import React from "react";
 
-class Contact extends React.Component {
+class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -8,11 +8,11 @@ class Contact extends React.Component {
 
   render = () => {
     return (
-      <div className="ContactContainer">
-        <p>contact info will go here.</p>
+      <div className="AboutContainer">
+        <p>about goes here</p>
       </div>
     );
   };
 }
 
-export default Contact;
+export default About;

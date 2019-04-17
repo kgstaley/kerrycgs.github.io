@@ -1,7 +1,8 @@
 import React from "react";
-import { Avatar, Grid } from "@material-ui/core";
 import AvatarImg from "../../imgs/avatarImg.JPG";
-import * as styles from "./home.module.css";
+import "./Home.css";
+
+import About from "../about/About";
 
 class Home extends React.Component {
   constructor(props) {
@@ -12,14 +13,12 @@ class Home extends React.Component {
   render = () => {
     return (
       <div className="HomeContainer">
-        <h1>Welcome to Kerry Staley's Website</h1>
-        <Grid container justify="center" alignItems="center">
-          <Avatar
-            alt="Kerry Staley"
-            src={AvatarImg}
-            className={styles.bigAvatar}
-          />
-        </Grid>
+        <div className="headerContainer">
+          <img alt="Kerry Staley" src={AvatarImg} className="bigAvatar" />
+          <h1 className="homeHeader">Kerry Staley</h1>
+          <h3 className="homeHeader">Full Stack Developer</h3>
+        </div>
+        <About />
       </div>
     );
   };
