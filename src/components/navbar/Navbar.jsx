@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import {
   AppBar,
   Toolbar,
@@ -15,18 +16,30 @@ class Navbar extends React.Component {
     this.state = {};
   }
 
+  historyPush = route => {
+    this.props.history.push(route);
+  };
+
   render = () => {
     return (
       <div className={styles.root}>
-        <AppBar position="static" color="#79D9F3">
+        <AppBar position="static">
           <Toolbar>
-            <IconButton className={styles.menuButton}>
+            <IconButton
+              className={styles.menuButton}
+              onClick={() => this.historyPush(`/`)}
+            >
               <Spa />
             </IconButton>
             <Typography variant="h6" color="inherit" className={styles.grow}>
               Kerry Staley
             </Typography>
-            <Button color="inherit">Contact</Button>
+            <Button
+              color="inherit"
+              onClick={() => this.historyPush(`/contact`)}
+            >
+              Contact
+            </Button>
           </Toolbar>
         </AppBar>
       </div>
@@ -34,4 +47,4 @@ class Navbar extends React.Component {
   };
 }
 
-export default Navbar;
+export default withRouter(Navbar);

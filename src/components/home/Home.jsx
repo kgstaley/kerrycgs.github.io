@@ -1,14 +1,7 @@
 import React from "react";
-import { withStyles, Avatar, Grid } from "@material-ui/core";
+import { Avatar, Grid } from "@material-ui/core";
 import AvatarImg from "../../imgs/avatarImg.JPG";
-
-const styles = {
-  bigAvatar: {
-    margin: 10,
-    width: 90,
-    height: 90
-  }
-};
+import * as styles from "./home.module.css";
 
 class Home extends React.Component {
   constructor(props) {
@@ -32,4 +25,4 @@ class Home extends React.Component {
   };
 }
 
-export default withStyles(styles)(Home);
+export default Home;
