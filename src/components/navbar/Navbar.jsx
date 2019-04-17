@@ -1,25 +1,13 @@
 import React from "react";
-import PropTypes from "prop-types";
 import {
-  withStyles,
   AppBar,
   Toolbar,
   Button,
   IconButton,
   Typography
 } from "@material-ui/core";
-import MenuIcon from "@material-ui/icons/Menu";
-
-const styles = {
-  root: {
-    flexGrow: 1
-  },
-  grow: { flexGrow: 1 },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20
-  }
-};
+import Spa from "@material-ui/icons/Spa";
+import * as styles from "./navbar.module.css";
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -27,16 +15,15 @@ class Navbar extends React.Component {
     this.state = {};
   }
 
-  render = props => {
-    const { classes } = props;
+  render = () => {
     return (
-      <div className={classes.root}>
-        <AppBar position="static">
+      <div className={styles.root}>
+        <AppBar position="static" color="#79D9F3">
           <Toolbar>
-            <IconButton className={classes.menuButton}>
-              <MenuIcon />
+            <IconButton className={styles.menuButton}>
+              <Spa />
             </IconButton>
-            <Typography variant="h6" color="inherit" className={classes.grow}>
+            <Typography variant="h6" color="inherit" className={styles.grow}>
               Kerry Staley
             </Typography>
             <Button color="inherit">Contact</Button>
@@ -47,8 +34,4 @@ class Navbar extends React.Component {
   };
 }
 
-Navbar.propTypes = {
-  classes: PropTypes.object.isRequired
-};
-
-export default withStyles(styles)(Navbar);
+export default Navbar;
