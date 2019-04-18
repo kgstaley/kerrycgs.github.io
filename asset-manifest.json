@@ -1,15 +1,15 @@
 {
-  "main.css": "https://kgstaley.github.io/static/css/main.9785b5d2.chunk.css",
-  "main.js": "https://kgstaley.github.io/static/js/main.ec9a9248.chunk.js",
-  "main.js.map": "https://kgstaley.github.io/static/js/main.ec9a9248.chunk.js.map",
-  "runtime~main.js": "https://kgstaley.github.io/static/js/runtime~main.b8d98bb1.js",
-  "runtime~main.js.map": "https://kgstaley.github.io/static/js/runtime~main.b8d98bb1.js.map",
-  "static/js/2.7d641f6e.chunk.js": "https://kgstaley.github.io/static/js/2.7d641f6e.chunk.js",
-  "static/js/2.7d641f6e.chunk.js.map": "https://kgstaley.github.io/static/js/2.7d641f6e.chunk.js.map",
-  "index.html": "https://kgstaley.github.io/index.html",
-  "precache-manifest.556753eb59bbff2ecacc0a39a447c07b.js": "https://kgstaley.github.io/precache-manifest.556753eb59bbff2ecacc0a39a447c07b.js",
-  "service-worker.js": "https://kgstaley.github.io/service-worker.js",
-  "static/css/main.9785b5d2.chunk.css.map": "https://kgstaley.github.io/static/css/main.9785b5d2.chunk.css.map",
-  "static/media/avatarImg.JPG": "https://kgstaley.github.io/static/media/avatarImg.818ecfd6.JPG",
-  "static/media/App.css": "https://kgstaley.github.io/static/media/headerImg.76b47216.jpg"
+  "main.css": "https://kgstaley.github.io/personal-site/static/css/main.22be67f7.chunk.css",
+  "main.js": "https://kgstaley.github.io/personal-site/static/js/main.f1a31f20.chunk.js",
+  "main.js.map": "https://kgstaley.github.io/personal-site/static/js/main.f1a31f20.chunk.js.map",
+  "runtime~main.js": "https://kgstaley.github.io/personal-site/static/js/runtime~main.fac581ac.js",
+  "runtime~main.js.map": "https://kgstaley.github.io/personal-site/static/js/runtime~main.fac581ac.js.map",
+  "static/js/2.7d641f6e.chunk.js": "https://kgstaley.github.io/personal-site/static/js/2.7d641f6e.chunk.js",
+  "static/js/2.7d641f6e.chunk.js.map": "https://kgstaley.github.io/personal-site/static/js/2.7d641f6e.chunk.js.map",
+  "index.html": "https://kgstaley.github.io/personal-site/index.html",
+  "precache-manifest.41a9580d1776e7b5a0c3fbe43b60364e.js": "https://kgstaley.github.io/personal-site/precache-manifest.41a9580d1776e7b5a0c3fbe43b60364e.js",
+  "service-worker.js": "https://kgstaley.github.io/personal-site/service-worker.js",
+  "static/css/main.22be67f7.chunk.css.map": "https://kgstaley.github.io/personal-site/static/css/main.22be67f7.chunk.css.map",
+  "static/media/avatarImg.JPG": "https://kgstaley.github.io/personal-site/static/media/avatarImg.818ecfd6.JPG",
+  "static/media/App.css": "https://kgstaley.github.io/personal-site/static/media/headerImg.76b47216.jpg"
 }

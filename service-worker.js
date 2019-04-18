@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://kgstaley.github.io/precache-manifest.556753eb59bbff2ecacc0a39a447c07b.js"
+  "https://kgstaley.github.io/personal-site/precache-manifest.41a9580d1776e7b5a0c3fbe43b60364e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://kgstaley.github.io/index.html", {
+workbox.routing.registerNavigationRoute("https://kgstaley.github.io/personal-site/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
