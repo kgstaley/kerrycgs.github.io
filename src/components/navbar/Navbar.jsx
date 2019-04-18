@@ -19,9 +19,9 @@ class Navbar extends React.Component {
 
   historyPush = route => {
     this.props.history.push(route);
-    if (route === `/#contact`) {
+    if (route === `contact`) {
       this.scrollToElement(".ContactContainer");
-    } else if (route === `/#portfolio`) {
+    } else if (route === `portfolio`) {
       this.scrollToElement(".PortfolioContainer");
     } else if (route === `/`) {
       this.scrollToElement(".headerContainer");
@@ -64,7 +64,7 @@ class Navbar extends React.Component {
             </Button>
             <Button
               color="inherit"
-              onClick={() => this.historyPush(`/#contact`)}
+              onClick={() => this.historyPush(`contact`)}
             >
               Contact
             </Button>
