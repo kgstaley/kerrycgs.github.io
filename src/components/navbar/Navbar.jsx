@@ -42,7 +42,7 @@ class Navbar extends React.Component {
               color="inherit"
               onClick={() => this.historyPush(`/#resume`)}
             >
-              Résumé
+              Download Résumé
             </Button>
             <Button
               color="inherit"
