@@ -6,7 +6,7 @@
   bottom: 0;
   left: 0;
   height: 3rem;
-  position: relative;
+  position: sticky;
   text-align: center;
   text-transform: uppercase;
   color: aliceblue;
