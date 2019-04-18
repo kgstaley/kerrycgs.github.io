@@ -25,12 +25,14 @@ class Navbar extends React.Component {
       this.scrollToElement(".PortfolioContainer");
     } else if (route === `/`) {
       this.scrollToElement(".headerContainer");
+    } else if (route === `/#resume`) {
+      window.location.href = `https://www.dropbox.com/s/kqgp53t0u0ku1lv/resume_kgstaleyV2.pdf?dl=0`;
     }
   };
 
   scrollToElement = el => {
     if (el === ".ContactContainer") {
-      window.scrollTo(0, 1000);
+      window.scrollTo(0, 1500);
     } else {
       window.scrollTo(0, $(`${el}`).offsetTop);
     }
@@ -60,7 +62,7 @@ class Navbar extends React.Component {
               color="inherit"
               onClick={() => this.historyPush(`/#resume`)}
             >
-              Download Résumé
+              Résumé
             </Button>
             <Button
               color="inherit"

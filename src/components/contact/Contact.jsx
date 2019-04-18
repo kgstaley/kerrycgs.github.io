@@ -30,6 +30,14 @@ class Contact extends React.Component {
                 <i className="fab fa-github" /> GitHub
               </h3>
             </a>
+            <a
+              href="https://www.dropbox.com/s/kqgp53t0u0ku1lv/resume_kgstaleyV2.pdf?dl=0"
+              className="aLink"
+            >
+              <h3 className="contactText">
+                <i className="fas fa-address-card" /> Résumé
+              </h3>
+            </a>
           </ul>
         </div>
       </div>
