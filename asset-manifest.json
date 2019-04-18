@@ -1,15 +1,15 @@
 {
-  "main.css": "/kgstaley.github.io/static/css/main.b85dacb8.chunk.css",
-  "main.js": "/kgstaley.github.io/static/js/main.352b1d79.chunk.js",
-  "main.js.map": "/kgstaley.github.io/static/js/main.352b1d79.chunk.js.map",
-  "runtime~main.js": "/kgstaley.github.io/static/js/runtime~main.7e269ce9.js",
-  "runtime~main.js.map": "/kgstaley.github.io/static/js/runtime~main.7e269ce9.js.map",
-  "static/js/2.7d641f6e.chunk.js": "/kgstaley.github.io/static/js/2.7d641f6e.chunk.js",
-  "static/js/2.7d641f6e.chunk.js.map": "/kgstaley.github.io/static/js/2.7d641f6e.chunk.js.map",
-  "index.html": "/kgstaley.github.io/index.html",
-  "precache-manifest.24dc057e986430d91ed6e921e2d8c74d.js": "/kgstaley.github.io/precache-manifest.24dc057e986430d91ed6e921e2d8c74d.js",
-  "service-worker.js": "/kgstaley.github.io/service-worker.js",
-  "static/css/main.b85dacb8.chunk.css.map": "/kgstaley.github.io/static/css/main.b85dacb8.chunk.css.map",
-  "static/media/avatarImg.JPG": "/kgstaley.github.io/static/media/avatarImg.818ecfd6.JPG",
-  "static/media/App.css": "/kgstaley.github.io/static/media/headerImg.76b47216.jpg"
+  "main.css": "/personal-site/static/css/main.c7f3e8ca.chunk.css",
+  "main.js": "/personal-site/static/js/main.cc847842.chunk.js",
+  "main.js.map": "/personal-site/static/js/main.cc847842.chunk.js.map",
+  "runtime~main.js": "/personal-site/static/js/runtime~main.039145d2.js",
+  "runtime~main.js.map": "/personal-site/static/js/runtime~main.039145d2.js.map",
+  "static/js/2.7d641f6e.chunk.js": "/personal-site/static/js/2.7d641f6e.chunk.js",
+  "static/js/2.7d641f6e.chunk.js.map": "/personal-site/static/js/2.7d641f6e.chunk.js.map",
+  "index.html": "/personal-site/index.html",
+  "precache-manifest.1cd2e704028deadac04a95546f49b352.js": "/personal-site/precache-manifest.1cd2e704028deadac04a95546f49b352.js",
+  "service-worker.js": "/personal-site/service-worker.js",
+  "static/css/main.c7f3e8ca.chunk.css.map": "/personal-site/static/css/main.c7f3e8ca.chunk.css.map",
+  "static/media/avatarImg.JPG": "/personal-site/static/media/avatarImg.818ecfd6.JPG",
+  "static/media/App.css": "/personal-site/static/media/headerImg.76b47216.jpg"
 }
