@@ -21,3 +21,7 @@
   grid-column: 3 / end;
   cursor: default;
 }
+
+.aboutLanguages {
+  font-style: italic;
+}

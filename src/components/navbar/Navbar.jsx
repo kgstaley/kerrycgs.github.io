@@ -39,12 +39,15 @@ class Navbar extends React.Component {
             >
               Kerry Staley
             </Typography>
-            <Button color="inherit" onClick={() => this.historyPush(`/resume`)}>
+            <Button
+              color="inherit"
+              onClick={() => this.historyPush(`/#resume`)}
+            >
               Résumé
             </Button>
             <Button
               color="inherit"
-              onClick={() => this.historyPush(`/contact`)}
+              onClick={() => this.historyPush(`/#contact`)}
             >
               Contact
             </Button>
