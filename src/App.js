@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <MuiThemeProvider theme={theme}>
           <Navbar />
-          <Route exact path="/" component={Home} />
+          <Route path="/" component={Home} />
           <Footer />
         </MuiThemeProvider>
       </div>
