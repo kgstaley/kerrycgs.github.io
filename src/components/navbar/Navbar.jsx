@@ -31,9 +31,17 @@ class Navbar extends React.Component {
             >
               <Spa />
             </IconButton>
-            <Typography variant="h6" color="inherit" className="grow">
+            <Typography
+              variant="h6"
+              color="inherit"
+              className="grow"
+              onClick={() => this.historyPush(`/`)}
+            >
               Kerry Staley
             </Typography>
+            <Button color="inherit" onClick={() => this.historyPush(`/resume`)}>
+              Résumé
+            </Button>
             <Button
               color="inherit"
               onClick={() => this.historyPush(`/contact`)}

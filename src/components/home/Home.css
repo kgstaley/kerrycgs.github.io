@@ -2,11 +2,6 @@
   display: grid;
 }
 
-.headerContainer {
-  display: grid;
-  background-color: #1e1e1e;
-}
-
 .bigAvatar {
   height: 10rem;
   width: 10rem;
@@ -14,7 +9,24 @@
   margin: auto;
 }
 
+.headerContainer {
+  display: grid;
+  background-image: url(../../imgs/headerImg.jpg);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.headerTextContainer {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
 .homeHeader {
   text-align: center;
+  font-weight: lighter;
   color: aliceblue;
+  padding: 0;
+  margin: 12px;
+  cursor: default;
 }

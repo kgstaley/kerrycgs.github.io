@@ -15,8 +15,10 @@ class Home extends React.Component {
       <div className="HomeContainer">
         <div className="headerContainer">
           <img alt="Kerry Staley" src={AvatarImg} className="bigAvatar" />
-          <h1 className="homeHeader">Kerry Staley</h1>
-          <h3 className="homeHeader">Full Stack Developer</h3>
+          <div className="headerTextContainer">
+            <h1 className="homeHeader">Kerry Staley</h1>
+            <h3 className="homeHeader">Full Stack Developer</h3>
+          </div>
         </div>
         <About />
       </div>
