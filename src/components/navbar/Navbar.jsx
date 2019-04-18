@@ -9,6 +9,8 @@ import {
 } from "@material-ui/core";
 import "./Navbar.css";
 
+import $ from "jquery";
+
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
@@ -17,6 +19,21 @@ class Navbar extends React.Component {
 
   historyPush = route => {
     this.props.history.push(route);
+    if (route === `/#contact`) {
+      this.scrollToElement(".ContactContainer");
+    } else if (route === `/#portfolio`) {
+      this.scrollToElement(".PortfolioContainer");
+    } else if (route === `/`) {
+      this.scrollToElement(".headerContainer");
+    }
+  };
+
+  scrollToElement = el => {
+    if (el === ".ContactContainer") {
+      window.scrollTo(0, 1000);
+    } else {
+      window.scrollTo(0, $(`${el}`).offsetTop);
+    }
   };
 
   render = () => {
@@ -29,7 +46,7 @@ class Navbar extends React.Component {
               onClick={() => this.historyPush(`/`)}
               color="secondary"
             >
-              <i class="fas fa-coffee" />
+              <i className="fas fa-coffee" />
             </IconButton>
             <Typography
               variant="h6"
