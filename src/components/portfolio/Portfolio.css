@@ -1,25 +1,19 @@
-.ContactContainer {
+.PortfolioContainer {
   display: grid;
-  background-color: #9fe7e8;
 }
 
-.contactH {
+.portFolioH {
   font-weight: lighter;
   font-size: 4rem;
   margin: 1.5rem;
   cursor: default;
 }
 
-.contactText {
+.portfolioText {
   text-align: justify;
   margin: 1.5rem;
   font-weight: lighter;
   grid-column: 3 / end;
   cursor: pointer;
   font-size: 1.5rem;
-}
-
-.contactA {
-  color: black;
-  text-decoration: none;
 }

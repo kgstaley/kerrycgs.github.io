@@ -3,6 +3,8 @@ import AvatarImg from "../../imgs/avatarImg.JPG";
 import "./Home.css";
 
 import About from "../about/About";
+import Contact from "../contact/Contact";
+import Portfolio from "../portfolio/Portfolio";
 
 class Home extends React.Component {
   constructor(props) {
@@ -21,6 +23,8 @@ class Home extends React.Component {
           </div>
         </div>
         <About />
+        <Portfolio />
+        <Contact />
       </div>
     );
   };
