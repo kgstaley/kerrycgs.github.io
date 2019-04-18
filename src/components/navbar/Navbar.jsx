@@ -27,6 +27,7 @@ class Navbar extends React.Component {
             <IconButton
               className="menuButton"
               onClick={() => this.historyPush(`/`)}
+              color="secondary"
             >
               <i class="fas fa-coffee" />
             </IconButton>
