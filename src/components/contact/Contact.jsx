@@ -13,18 +13,18 @@ class Contact extends React.Component {
         <ul>
           <a
             href="https://www.linkedin.com/in/kerry-staley-642319100/"
-            className="contactA"
+            className="aLink"
           >
             <h3 className="contactText">
               <i class="fab fa-linkedin-in" /> LinkedIn
             </h3>
           </a>
-          <a href="mailto:kgstaley78@gmail.com" className="contactA">
+          <a href="mailto:kgstaley78@gmail.com" className="aLink">
             <h3 className="contactText">
               <i class="fas fa-envelope" /> Email
             </h3>
           </a>
-          <a href="https://github.com/kgstaley" className="contactA">
+          <a href="https://github.com/kgstaley" className="aLink">
             <h3 className="contactText">
               <i class="fab fa-github" /> GitHub
             </h3>
