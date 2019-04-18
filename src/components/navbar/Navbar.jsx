@@ -7,7 +7,6 @@ import {
   IconButton,
   Typography
 } from "@material-ui/core";
-import Spa from "@material-ui/icons/Spa";
 import "./Navbar.css";
 
 class Navbar extends React.Component {
@@ -29,7 +28,7 @@ class Navbar extends React.Component {
               className="menuButton"
               onClick={() => this.historyPush(`/`)}
             >
-              <Spa />
+              <i class="fas fa-coffee" />
             </IconButton>
             <Typography
               variant="h6"

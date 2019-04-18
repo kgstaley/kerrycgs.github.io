@@ -3,7 +3,8 @@ import { createMuiTheme } from "@material-ui/core/styles";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#1e1e1e"
+      main: "#1e1e1e",
+      dark: "#EEEEEE"
     },
     secondary: {
       main: "#DDDDDD",
@@ -12,6 +13,13 @@ const theme = createMuiTheme({
   },
   typography: {
     useNextVariants: true
+  },
+  overrides: {
+    MuiIconButton: {
+      colorPrimary: "#EEEEEE",
+      colorInherit: "#EEEEEE",
+      colorSecondary: "#EEEEEE"
+    }
   }
 });
 

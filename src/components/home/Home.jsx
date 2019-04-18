@@ -1,6 +1,5 @@
 import React from "react";
 import AvatarImg from "../../imgs/avatarImg.JPG";
-import "./Home.css";
 
 import About from "../about/About";
 import Contact from "../contact/Contact";

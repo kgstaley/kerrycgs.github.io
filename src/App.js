@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
+import "./App.css"
 
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from "./theme";

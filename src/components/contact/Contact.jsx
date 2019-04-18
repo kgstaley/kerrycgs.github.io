@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contact.css";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -10,7 +9,7 @@ class Contact extends React.Component {
   render = () => {
     return (
       <div className="ContactContainer">
-        <h1 className="contactH">Contact:</h1>
+        <h1>Contact:</h1>
         <ul>
           <a
             href="https://www.linkedin.com/in/kerry-staley-642319100/"
