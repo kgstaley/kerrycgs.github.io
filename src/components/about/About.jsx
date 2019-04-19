@@ -16,9 +16,9 @@ class About extends React.Component {
             <p>
               Welcome to my website! My name is Kerry Staley and I am a
               passionate full stack developer from San Diego, CA. I received my
-              my Bachelor of Arts from the University of California, Santa
-              Barbara majoring in Global Studies with an emphasis in Chinese
-              Economics and Environmental Impact.
+              Bachelor of Arts from the University of California, Santa Barbara
+              majoring in Global Studies with an emphasis in Chinese Economics
+              and Environmental Impact.
             </p>
             <p>
               However, my true passion and motivation lies within the tech
